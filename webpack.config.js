@@ -13,7 +13,7 @@ module.exports = {
       exclude: /node_modules/ // don't compile node_modules
     },
     {
-      test: /\.scss$/,
+      test: /\.s?css$/, // Add '?' to support normalize css file
       use: [
         'style-loader', // Inject CSS to DOM
         'css-loader', // CSS JS
