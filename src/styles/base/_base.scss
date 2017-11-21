@@ -3,6 +3,15 @@ html {
 }
 
 body {
+  background: $dark-blue;
   font-family: Helvetica, Arial, sans-serif;
   font-size: $m-size; // base is 10px so 1.6 is 16px
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: default;
 }
